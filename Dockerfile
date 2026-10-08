@@ -11,4 +11,3 @@ COPY ./index.html /usr/share/nginx/html
 EXPOSE 80
 
 # Команда CMD визначає команду, яка буде виконана під час запуску контейнера
-CMD ["nginx", "-g", "daemon off;"]
